@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+          crossorigin="anonymous"/>     
+<title>Study-Saarthi</title>
+
+    <style>
+      * {
+        margin: 0, 0px;
+      }
+
+      .blink {
+    -webkit-animation: fade 1000ms infinite;
+    }
+     @keyframes fade
+     {
+         1%
+      {
+        left:300%
+      }
+     }
+
+.mad {
+  font-family: "Madimi One", sans-serif;
+  font-size: 2em;
+  font-style: normal;
+}
+
+.mad span
+{
+    color: #ff022c;
+}
+
+      .conatiner_top {
+        width: 100%;  /*1752*/
+        height: 210px;
+        background-color: #aa4a44;
+        border: 2px solid black;
+        border-radius: 15px;
+      }
+
+      .top_root{
+        width:25%;
+        height: 190px;
+        padding: 10px;
+        padding-left: 100px;
+        
+      } 
+        
+      
+      
+      .holi{
+        padding: 10px;;
+        width: 12%;
+        height: 10%;
+        float:right;
+        
+      }
+      .crousel{
+        padding-left: 27%;
+        width:80%;
+        height:90%;
+        padding-bottom: 15px;
+        
+        
+        
+      }
+
+      .crousel_outer{
+        width: 100%;
+        height: 100%;
+        background-color:rgb(234, 221, 202);
+        border-radius: 20px;
+        border: 2px solid black;
+      }
+
+      .main{
+        
+       font-size:x-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin-left: 20px;
+      margin-left: 20px;
+      
+      }
+      
+      #staff{
+        width:90%;
+        height: 50%;
+        padding-left: 10%;
+      }
+      
+      .study_mat{
+        width:100%;
+        height:100%;
+        background-color:burlywood;
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        
+      }
+      .box1{
+             width:19%;
+             height:20%;
+             margin: 2px;
+             margin-top:15px;
+             margin-left: 10px;
+            }
+      .zoomin img {
+       margin:10px;
+      height: 200px;
+      width: 200px;
+      -webkit-transition: all 2s ease;
+      -moz-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+      transition: all 2s ease;
+    }
+    .zoomin img:hover {
+     margin:10px;
+      width: 250px;
+      height: 250px;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 20px auto;
+
+        padding: 10px;
+      }
+
+      .flex-item2 {
+        padding: 10px;
+      }
+      .flex-item1{
+        padding: 10px;
+        padding-left: 60px;
+      }
+    .demo{
+     font-size: 3em;
+     margin: 30px;
+     }
+
+    .demo2{
+     font-size: 2em;
+     margin: 30px;
+     }
+     hr{
+      border: 3px ;
+     }
+     span{
+      color: #ff022c;
+     }
+     .nimbel{
+      width:70%;
+      height:450px;
+      
+     }
+    .heading{
+      font-size:xx-large;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+      @media(max-width=1385px){
+        .crousel_outer{
+        width: 200%;
+        height: 100%;
+        background-color:rgb(234, 221, 202);
+        border-radius: 20px;
+        border: 2px solid black;
+      }
+      
+        .crousel{
+        padding-left: 10px;
+        width:100%;
+        height:250px;
+        padding-bottom: 15px;
+        
+      }
+
+      .main{
+        padding: 20px;
+        
+        font-size:"5vw";
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      h4{
+        font-size: small;
+        font-size: x-small;
+      }
+      
+      .study_mat{
+        width:100%;
+        height:100%;
+        background-color:rgb(11, 201, 21);
+        border-radius: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .box1{
+             width:10%;
+             height:12%;
+             margin: 2px;
+             margin-top:15px;
+             margin-left: 10px;
+            }
+      
+}
+@media screen and (width<650px){
+  .nimbel{
+    width:100%;
+    height:210px ;
+  }
+  .holi{
+    width:120px;
+    height: 120px;
+  }
+  #staff{
+        width:97%;
+        height: 270px;
+        padding-left: 7%;
+      }
+  .flex-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 80%;
+          margin: 20px auto;
+          flex-wrap: wrap;
+          padding: 10px;
+          padding-left:20px;
+        }    
+}
+@media screen and (width<500px){
+      
+        .top_root{
+        width:70%;
+        height: 200px;
+        padding: 10px;
+        padding-left: 100px;
+        
+      } 
+
+    }
+ @media screen and (width>500px) and (width<1000px) {
+      
+        .top_root{
+        width:35%;
+        height: 200px;
+        padding: 10px;
+        padding-left: 100px;
+        
+      }      
+        
+     
+}
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="conatiner_top">
+          <div>
+            <center><img class="top_root" src="study.png" /></center>
+            
+          </div>
+          <div>
+            <img class="holi" src="eid.jpg">
+          </div>
+      </div>
+    </header>
+    
+    <h3  >ONLINE CLASSES FOR KIDS</h3>
+    
+    <main class="crousel_outer">
+      <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="crousel" src="Math.JPG" class="d-block w-100"  >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Admission Open</h5>
+        <h4>Individual and group classes are available</h4>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="crousel" src="Code.jpg" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Admission Open</h5>
+        <h4>Individual and group classes are available</h4>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="crousel"src="online2.jpg" class="d-block w-100"  height="1000">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Admission Open</h5>
+        <h4>Individual and group classes are available</h4>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="crousel" src="pyth.JPG" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Admission Open</h5>
+        <h4>Individual and group classes are available</h4>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="crousel" src="web.jpg" class="d-block w-100" >
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Admission Open</h5>
+        <h4>Individual and group classes are available</h4>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<br>
+<div class="main">
+ <h4 class="mad  blink">Book Your <span>Free</span> Trial Class<br>
+  <hr>
+    WhatsApp your <span>Name</span>, <span>Class</span> and <span>Subject</span> to 9696873754</h4><br><br><br>
+    <p class="heading" >Learn from the top instructors. Our hand-picked instructors ensure the best learning experience.<br>
+    Like thousands of other parents who have enrolled their kids</p>
+    <br>
+    <center>
+    <img class="nimbel" src="nimbelq.jpg"  ><br><br></center>
+
+   <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+         About Us
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> <strong>Study Saarthi is a premier coaching institute established in 2024, dedicated to provide excellent coaching and guidance to students. The institute offers coaching for students from 6th to 12th grade in Maths and Science, along with Coding  classes.
+
+The coaching institute is committed for helping students achieve their goals by providing top-quality coaching and mentoring. They have a team of experienced and highly qualified teachers who use innovative and practical teaching methods to help students grasp complex concepts in Maths and Science. The teachers  are experts in their respective fields and have years of experience teaching students at various levels.<br>
+
+The institute's primary goal is to provide a comfortable and conducive learning environment that encourages students to ask questions and seek help from their teachers. The teachers  are always available to address any doubts or concerns that students may have. They work tirelessly to ensure that each student receives personalized attention and can progress at their own pace.
+
+    We offer a range of study materials, including <u>work-sheets, e-books, , quizzes and online resources</u>, to help students prepare for their exams thoroughly. The institute also conducts regular tests and assessments to evaluate each student's progress and identify areas that require improvement. The regular tests and assessments also help students become familiar with the exam pattern and build confidence.
+
+Overall, Study Saarthi is an excellent institute for students. The institute's experienced teachers, personalized attention, and comprehensive study materials make it an ideal place for students to achieve their academic goals.</strong></div>
+    </div>
+  </div>
+   
+<br>
+    
+  <img id="staff" src="staff.jpg" >
+    
+</div>
+
+<br>
+<div class="study_mat" >
+   
+   <img class="box1"  src="math6.jpg" >
+   <img class="box1"  src="math7.jpg"  >
+   <img class="box1"  src="math8.jpg" >
+   <img class="box1"  src="science8.jpg">
+   <img class="box1"  src="sc6.jpg">
+</div>
+<br>
+<center>
+  <h3>Coding Games</h3>
+        <div class="zoomin demo" >
+            <img class="box1 " src="scratch1.png"  >
+
+            <img class="box1 " src="th2.png"  >
+        </div>
+</center>        
+<center>
+   <h3>Demo....</h3>
+   <br>
+   <div>
+<video id="video" class="demo" controls width=250 height=200>
+    <source src="motor.mp4" type="audio/mp4" ></video>
+    <video  controls width=250 height=200>
+        <source src="digest.mp4" type="audio/mp4" ></video>
+    </div>    
+</center>
+
+
+<div class="accordion accordion-flush" id="accordionFlushExample">
+<div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        What Is STEM and Why Is It Important for kids?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"><strong>STEM stands for science, technology, engineering, and math. <br>
+    These four fields share an emphasis on innovation, problem-solving, and critical thinking. And together they make up a popular and fast-growing industry.<br>
+    Most STEM workers use computers and other technology in their day-to-day jobs. <br>
+    As society innovates and technology advances, the need for professionals who understand how these technologies work and who can propose practical solutions continues to grow. The U.S. Bureau of Labor Statistics (BLS) calls STEM careers "tomorrow's jobs," emphasizing the importance of these unique industries.
+    </strong></div>
+    </div>
+  </div>
+</div>
+
+
+
+      <center>  <h3 class="demo">Trusted By</h3>
+            <img src="google.jpg" width=100 height=100 alt="..."  >
+            <img src="cms.png" width=100 height=100 alt="..."  >
+            <img src="cbse-logo.jpg" width=100 height=100 alt="..."  >
+            <img src="dps.png" width=100 height=100 alt="..."  >
+            <img src="LPS.jpeg" width=100 height=100 alt="..."  >
+            <img src="Android.png" width=100 height=100 alt="..."  >
+            <img src="john.jpeg" width=150 height=100 alt="..."  >
+            <img src="sunbeam.jpg" width=100 height=100 alt="..."  >
+            <img src="mary.jpeg" width=100 height=100 alt="..."  >
+ </div>
+</center>
+  
+
+<h4>Book your Free trial Class</h4>
+  <center><p class="demo">You are in safe hands at Study Saarthi<br></p>
+           <img  src="STUDY_SAARTHI.png" width=300 height=300 alt="..."  ><br>
+                </center>
+<div class="flex-container">
+      <div class="flex-item1">
+       <img src="money-guarantee.jpg">
+      </div>
+      <div class="flex-item2">
+        At Study Saarthi, we prioritize our customers' satisfaction above all else. That's why we 
+        proudly offer a 100% money-back guarantee policy.If our services ever fall short of your 
+        expectations, you have every right to cancel your purchase and receive a full refund. 
+        It's a straightforward process because we believe in making things easy for you.
+        If there comes a time when you decide to discontinue using Study Saarthi, simply reach out 
+        to us at billing@studysaarthi.com, and we'll swiftly process your refund for any remaining 
+        sessions or courses, without any hassle or questions asked.
+      </div>
+    </div>
+
+
+   <table class="table table-danger">
+       <tr>
+        <td scope="row">
+            <center><u><b>Contact Us:</b></u><br>
+                <h3><u>Registered office:</u> Study Saarthi, Lucknow Centre, Varanasi Centre, INDIA<br><br>
+                 Mobile No : 9696873754, 7905611494<br></h3></center>
+        </td>
+      </tr>
+   </table>
+  <center>
+      <footer> Copyright &copy; 2023 - All rights reserved  <br>  
+           Powered BY  <h3> <span>W</span>eb<span></span><span>A</span>dven</h3></footer></center>
+  </body>
+    
+
+</main>
+</body>
+</html>
+
